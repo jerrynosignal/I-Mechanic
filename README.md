@@ -1,3 +1,11 @@
+# A Note from the Creator
+
+Hi, I’m Jerry, a sim-racing enthusiast with a little idea that turned into I, Mechanic. It’s a Windows desktop assistant for Assetto Corsa Competizione telemetry, built with a lot of help from GitHub Copilot. I’m not much of a coder, so being able to bring this idea to life with AI makes me feel really lucky.
+
+I’ve tested the app, but it’s still an early project, so there may be bugs or rough edges. Right now it only supports ACC telemetry. I’d love to explore support for other sims, like Le Mans Ultimate and iRacing, if I can get access to their telemetry and find the time to work on it.
+
+Anyway, I hope you enjoy using this little app :) Feedback and bug reports are very welcome!
+
 # I, Mechanic
 
 I, Mechanic is a Windows desktop assistant for Assetto Corsa Competizione (ACC) telemetry. It reads MoTeC `.ld` logs, summarizes setup-relevant signals, and can turn the summary and driver feedback into structured setup suggestions. Projects, session history, and chat are stored locally.
