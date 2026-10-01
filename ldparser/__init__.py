@@ -1,0 +1,1 @@
+"""Vendored MoTeC log parser package."""

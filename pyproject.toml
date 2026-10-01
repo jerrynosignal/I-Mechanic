@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "i-mechanic"
+version = "0.1.0"
+description = "A telemetry-led setup assistant for Assetto Corsa Competizione"
+requires-python = ">=3.9,<3.14"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "PySide6==6.8.3; python_version >= '3.9' and python_version < '3.14'",
+]
+
+[project.scripts]
+i-mechanic = "i_mechanic.__main__:main"
+i-mechanic-coach = "i_mechanic.coach:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["i_mechanic*", "ldparser*"]
+exclude = ["tests*"]
+
+[tool.setuptools.package-data]
+ldparser = ["LICENSE"]
